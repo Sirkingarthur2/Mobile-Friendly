@@ -3,8 +3,8 @@
     border: solid 1px;
     height: 15px;
     background-color: #004e64; 
-    margin: 0 auto;
-    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 body {
@@ -14,17 +14,19 @@ body {
 
 .question1 {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .who-is-apostle-paul {
     font-size: xx-large;
     font-weight: bold;
+    margin-left: 40px;
 }
 
 .apostle-paul-answer {
     margin-left: 30px;
     font-size: xx-large;
+    margin-right: 40px;
 }
 
 .question2 {
@@ -35,11 +37,13 @@ body {
 .what {
     font-size: xx-large;
     font-weight: bold;
+    margin-left: 40px;
 }
 
 .greatness-description {
     margin-left: 30px;
     font-size: xx-large;
+    margin-right: 40px;
 }
 
 .header {
@@ -64,8 +68,9 @@ body {
 }
 
 .background-image {
-    width: 100%;
-    height: auto;
+    width: 1500px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .images {
@@ -80,8 +85,12 @@ body {
 }
 
 .video-frame {
-    width: 100%;
-    height: 315px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .accomplishments-table {
