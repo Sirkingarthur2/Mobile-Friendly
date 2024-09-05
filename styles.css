@@ -56,21 +56,35 @@ body {
     margin: auto;
     margin-bottom: 35px;
     margin-top: 35px;
+    border: 3px outset silver;
+    background-color: #F8F0E3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 70%;
 }
+
 
 .container_table {
     display: flex;
     justify-content: center;
 }
 
-.image-container {
+.image-container-container {
     display: flex;
     justify-content: center;
 }
 
+.image-container {
+    border: 7px outset #c49c48;
+    width: 90%;
+}
+
 .background-image {
-    width: 1300px;
+    width: 100%;
+    height: 100%;
     margin: auto;
+    border: 10px solid #c49c48;
+    box-sizing: border-box;
 }
 
 .images {
@@ -86,16 +100,31 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    border: 3px solid silver;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 40px;
+}
+
+.video-frame-container{
+    display: flex;
+    justify-content: center;
+
 }
 
 .video-frame {
-    display: flex;
-    justify-content: center;
+    border: 7px outset #c49c48;
+    width: 90%;
     height: 500px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 10px solid #c49c48;
+    box-sizing: border-box;
 }
 
 .accomplishments-table {
