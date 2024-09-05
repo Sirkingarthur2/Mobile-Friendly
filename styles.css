@@ -15,6 +15,8 @@ body {
 .question1 {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .who-is-apostle-paul {
@@ -24,6 +26,7 @@ body {
 }
 
 .apostle-paul-answer {
+    display: flex;
     margin-left: 30px;
     font-size: xx-large;
     margin-right: 40px;
@@ -50,6 +53,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 40px;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 .container_table {
@@ -60,37 +66,36 @@ body {
 .image-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: auto;
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 0;
 }
 
 .background-image {
-    width: 1500px;
-    margin-left: 40px;
-    margin-right: 40px;
+    width: 1300px;
+    margin: auto;
 }
 
 .images {
     display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
 }
 
 .image {
     width: 30%;
     height: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .video-frame {
     display: flex;
     justify-content: center;
     height: 500px;
-    width: 1400px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .accomplishments-table {
